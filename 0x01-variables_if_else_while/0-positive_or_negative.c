@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /**
  * main - entry point
  * Return: returns 0 always for success
@@ -21,4 +19,6 @@ int main(void)
 	}
 	else {
 		printf("%d is negative\n", n);
-	return (0);}
+	}
+	return (0);
+}
