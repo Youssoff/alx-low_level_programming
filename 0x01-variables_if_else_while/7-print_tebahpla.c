@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
  * main - outputs a statement
- * Description: 'print for 0 to 9'
  * Return: 0 always
  */
 int main(void)
 {
-	int n;
+	int ch = 122;
 
-	for (n = 48; n <= 57; n++)
+	while (ch >= 97)
 	{
-		putchar(n);
+		putchar(ch);
+		ch--;
 	}
 	putchar('\n');
 	return (0);
