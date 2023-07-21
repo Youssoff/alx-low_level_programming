@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - prints from 0 to 9
+ * print_most_numbers - prints from 0 to 9
  */
 void print_most_numbers(void)
 {
@@ -10,7 +10,7 @@ void print_most_numbers(void)
 	{
 		if (i != 50 && i != 52)
 		{
-		_putchar(i);
+			_putchar(i);
 		}
 	}
 	_putchar('\n');
