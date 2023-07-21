@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * print_triangle - prints a triangle of char #
- * @size: size of triangle
+ * print_triangle - prints a triangle, followed by a new line
+ * @size: size of the triangle
  */
 void print_triangle(int size)
 {
@@ -11,11 +12,11 @@ void print_triangle(int size)
 	}
 	else
 	{
-		int i, j, k;
+		int i, j;
 
-		for (i = 0; i < size; i++)
+		for (i = 1; i <= size; i++)
 		{
-			for (j = i; j < size; k++)
+			for (j = i; j < size; j++)
 			{
 				_putchar(' ');
 			}
