@@ -1,5 +1,0 @@
-#include <stdio.h>
-/**
- * main - outputs a statement
- * Return: 0 always
- */
